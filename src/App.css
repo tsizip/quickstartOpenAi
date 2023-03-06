@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.home {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #403e3e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sidemenu {
+  padding: 10px;
+  /* border: 2px solid white; */
+  height: 100vh;
+  background-color: black;
+  /* border-color: 1px solid black; */
+}
+.chatbox {
+  color: white;
+  padding: 10px;
+  position: relative;
+  /* border: 1px solid white; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-dark{
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.chat-input-textarea{
+  background-color: #40414f;
+  border-radius: 5px;
+  border: none;
+  width: 97.5%;
+  margin: 10px;
+  outline: none;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 10px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.chat-input-holder{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  left: 10px;
+  padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-log{
+
 }
+
+.chat-message{
+  margin-left: 15px;
+}
+.client{
+  margin-top: 15px;
+}
+.avatar.chat-gpt{
+  width: 50px;
+}
+.message{
+  margin-left: 15px;
+  line-height: 3;
+} 
